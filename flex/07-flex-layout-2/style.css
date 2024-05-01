@@ -24,6 +24,47 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+  width: 450px;
+  margin: 16px 8px;
+  padding: 16px;
+}
+
+/* --------------------------------------------- */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.container-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
